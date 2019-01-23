@@ -6,6 +6,8 @@ Utilise un css perso et des morceaux de bootstrap, ainsi que du js de bootstrap.
 
 Se connecte à une BBD mysql avec PDO.
 
+![Alt text](preview.png)
+
 ## Autheur
 
 * [Baptiste Texier](https://github.com/texier54)
