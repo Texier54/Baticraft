@@ -1,0 +1,617 @@
+@font-face
+{
+    font-family: 'Vanlose';
+	src: url('../polices/fontastique.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Lato';
+	src: url('../polices/Lato.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Lato-BoldItalic.ttf';
+	src: url('../polices/Lato-BoldItalic.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Minecraft';
+	src: url('../polices/Minecraftia.ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face
+{
+    font-family: 'Lobster';
+	src: url('../polices/Lobster.otf');
+    font-weight: normal;
+    font-style: normal;
+}
+body
+{
+    background-position: 0px 0px;
+    background-image: url("../images/background.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	display: block;
+}
+#bloc_page
+{
+    margin: auto;
+	font-family: Vanlose;
+}
+.messages {
+    font-family: "Georgia";
+    font-size: 16px;
+}
+.titrecase
+{
+	color: white;
+	text-align: center;
+	font-size: 28px;
+	font-family: Lobster;
+}
+.barreliens
+{
+    color: black;
+    width: 800px;
+	display: inline-block;
+	height: 48px;
+	background-color: rgba(1, 1, 1, 0.3);
+	border-radius: 4px;
+	width: 940px;
+}
+.barre
+{
+	margin-right: -8px;
+	margin-left: -8px;
+	background-color: rgba(1, 1, 1, 0.6);
+	color: white;
+	height: 30px;
+	margin-top: -10px;
+	text-align: center;
+	padding: 12px 0px 0px 0px;
+	font-family: Vanlose;
+}
+.liens2
+{
+	color: white;
+	text-align: center;
+	font-size: 18px;
+	font-family: Vanlose;
+}
+.liens2:hover
+{
+	color: gray;
+}
+.footer
+{
+	font-family: Lato;
+	color: #94A6A4;
+	margin-top: 15px;
+	vertical-align: bottom;
+}
+.milieu_index
+{
+	padding: 4px 4px;
+    font-size: 30px;
+	margin-top: 20px;
+	width: 80%;
+	margin-left: 5%;
+	background-color: rgba(1, 1, 1, 0.3);
+}
+.milieu
+{
+	padding: 4px 4px;
+    font-size: 30px;
+	margin-top: 20px;
+	width: 90%;
+	margin-left: 5%;
+	background-color: rgba(1, 1, 1, 0.3);
+}
+.info
+{
+    position: relative;
+    font-family: Vanlose;
+    box-shadow: 0 4px 4px #1c1a19;
+    width: 800px;
+    text-align: center;
+    margin-top: 400px;
+    background-image: url("../images/extures.jpg");
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #55AAFF;
+}
+a
+{
+    color: black;
+	text-decoration: none;
+}
+h1
+{
+	border-radius: 8px;
+	margin-left: 5px;
+	margin-right: 5px;
+	font-family: Minecraft;
+	color: white;
+	font-size: 18px;
+	padding: 9px 15px 0px 15px;
+	text-decoration: none;
+	background-image: url("../../images/fondbase.png");
+	border: 2px solid #383737;
+	padding-left: 5px;
+}
+.image_post {
+	float: left;
+}
+.message_post {
+	float: right;
+	width: 91%;
+}
+.topic
+{
+	margin-left: 15px;
+}
+.lienstopic
+{
+    color: #2b748f;
+    font-size: 24px;
+    font-weight: bold;
+}
+.lienstopic:hover
+{
+    color: #2b748f;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: underline;
+}
+.infotopic
+{
+	margin-top: 0px;
+	font-size: 14px;
+}
+.infotopicavatar
+{
+	margin-top: -10px;
+	margin-left: 50px;
+	font-size: 14px;
+	vertical-align: top;
+}
+.avatarfiche {
+	vertical-align: top;
+}
+.infosavatar {
+	display: inline;
+	vertical-align: top;
+}
+.droite
+{ 
+	margin-top: 20px;
+	font-family: Lato;
+    display: inline-block;
+    font-size: 18px;
+    width: 200px;
+	float: right;
+	background-color: rgba(1, 1, 1, 0.2);
+}
+.grostitre
+{	
+	font-family:Lobster;
+	font-size: 34px;
+	color: white;
+	margin-left: 20px;
+}
+.grostitre:hover
+{
+	color: gray;
+}
+.post
+{
+    color: #2b748f;
+    font-size: 24px;
+}
+.message {
+	margin-left: 15px;
+	margin-right: 15px;
+	padding-top: 8px;
+	border-top: 2px solid rgba(1, 1, 1, 0.3);
+	clear: both;
+}
+.texte
+{
+	padding: 4px 4px;
+    color: black;
+    background-color: #ecf0f1;
+    margin-top: 10px;
+    margin-left: 8px;
+    width: 95%;
+    font-size: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: Lato;
+}
+.article
+{
+    font-weight: bold;
+    color: green;
+}
+.regle
+ {
+    text-align: left;
+    margin-left: 60px;
+ }
+.bouton_news
+{
+    text-align: right;
+    margin-left: 750px;
+    font-size: 15px;
+    margin-top: 2px;
+}
+.bouton_news:hover
+{
+    text-align: right;
+    margin-left: 750px;
+    font-size: 15px;
+    margin-top: 2px;
+    color: #AEA1A1;
+}
+.bouton_profil
+{
+    font-size: 15px;
+    margin-top: 40px;
+    display: inline-block;
+}
+.bouton_profil:hover
+{
+    font-size: 15px;
+    margin-top: 40px;
+    color: #AEA1A1;
+    display: inline-block;
+}
+ .titre_milieu
+{
+    border: 2px gray solid;
+    border-radius: 10px;
+    border-color: gray;
+    background-image: url("../images/extures.jpg");
+    color: #55AAFF ;
+    font-size: 18px;
+ }
+.news
+{
+    text-align: justify;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 13px;
+	font-family: Vanl;
+ }
+ .sommaire
+{
+    margin-left: 280px;
+	margin-right: 280px;
+	background-image: url("../images/fond.png");
+	border-radius: 3px;
+	border: 2px solid;
+	border-color: #55AAFF;
+}
+.sommairetext
+{
+    text-align: left;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.signature
+{
+    color: green;
+}
+.titre
+{
+    margin-left: 5px;
+	margin-right: 5px;
+    border: 2px gray solid;
+    border-radius: 10px;
+    background-image: url("../images/extures.jpg");
+    color: #55AAFF ;
+    font-size: 20px;
+}
+.titre2
+{
+    font-size: 18px;
+    color: green;
+    font-weight: bold;
+}
+.maj
+{
+    text-align: right;
+}
+.liensociaux
+{
+    margin-left: 4px;
+}
+.separateur
+{
+    background: url('../images/separateur.png') repeat-x bottom;
+}
+.white
+{
+    background-repeat: repeat;
+    color: black;  
+    background-image: url("../images/fond.png");
+    border: 2px solid;
+    border-radius: 10px;
+    border-color: gray ;
+}
+.align_droite
+{
+    text-align: right;
+	float: right;
+}
+.align_gauche
+{
+    text-align: left;
+	float: left;
+}
+.pseudo
+{
+    text-align: left;
+	float: left;
+	margin-left: 20px;
+}
+.black
+{
+    color: black;
+}
+.avatar:hover/* Apparence au survol des liens */
+{
+    background-image: url('../images/separateur.png');
+}
+.connexion
+{
+    display: inline-block;
+    font-size: 18px;
+    background: url('../images/fond.png');
+    border: 3px solid;
+	border-color: #55AAFF;
+    border-radius: 10px;
+    width: 300px;
+    height: 165px;
+	vertical-align: bottom;
+	box-shadow: 0px 4px 4px #1c1a19;
+	position: relative;
+}
+.connexion1
+{
+    display: inline-block;
+    font-size: 18px;
+    background: url('../images/fond.png');
+    border: 3px solid;
+	border-color: #55AAFF;
+    border-radius: 10px;
+    width: 300px;
+    height: 130px;
+	vertical-align: bottom;
+	box-shadow: 0px 4px 4px #1c1a19;
+	position: relative;
+}
+.btn1 
+{
+  display: inline-block;
+  font-family: Vanlose;
+  padding: 6px 12px;
+  margin-bottom: 0;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid transparent;
+  border-radius: 4px;
+}
+.avatar
+{
+  margin-left: 5px;
+  border-radius: 8px;
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+  padding: 4px;
+  line-height: 1.42857143;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+.center
+{
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+.btn1:hover, .btn:focus 
+{
+  color: #333;
+  background-color: #ebebeb;
+  border-color: #adadad;
+}
+.form-control 
+{
+  display: block;
+  width: 80%;
+  height: 15px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+.lienprincipaux
+{
+    text-decoration: none;
+    color: #3098cd;
+}
+.lienprincipaux:hover
+{
+    color: gray;
+    text-decoration: underline;
+}
+.envoyeralbum
+{
+	background-color: white;
+	width: 600px;
+	border: 3px solid #55aaff;
+	border-radius: 6px;
+}
+#menu,
+#menu ul
+/* Liste */
+
+{
+	padding: 0;
+	/* pas de marge intérieure */
+	
+	margin: 0;
+	/* ni extérieure */
+	
+	list-style: none;
+	/* on supprime le style par défaut de la liste */
+	
+	line-height: 24px;
+	/* on définit une hauteur pour chaque élément */
+	
+	text-align: center;
+	/* on centre le texte qui se trouve dans la liste */
+}
+
+#menu
+/* Ensemble du menu */
+
+{
+	margin-left: 180px;
+}
+
+#menu a
+/* Contenu des listes */
+
+{
+	display: block;
+	/* on change le type d'élément, les liens deviennent des balises de type block */
+	
+	border-radius: 4px;
+	color: white;
+	font-family: Minecraft;
+	font-size: 18px;
+	padding: 9px 15px 0px 15px;
+	text-decoration: none;
+	margin-top: 5px;
+	background-image: url("/images/fondbase.png");
+	border: 2px solid #383737;
+}
+
+#menu li
+/* Elements des listes */
+
+{
+	float: left;
+	/* pour IE qui ne reconnaît pas "transparent" */
+	
+	border-right: 1px solid #fff;
+	/* on met une bordure blanche à droite de chaque élément */
+}
+/* IE ne reconnaissant pas le sélecteur ">" */
+
+html>body #menu li {
+	border-right: 60px solid transparent;
+	/* on met une bordure transparente à droite de chaque élément */
+}
+
+#menu li ul
+/* Sous-listes */
+
+{
+	position: absolute;
+	/* Position absolue */
+	
+	width: 144px;
+	/* Largeur des sous-listes */
+	
+	left: -999em;
+	/* Hop, on envoie loin du champ de vision */
+	
+	background-color: transparent;
+	border-radius: 0px 0px 4px 4px;
+}
+
+#menu li ul li
+/* Éléments de sous-listes */
+
+{
+	/* pour IE qui ne reconnaît pas "transparent" (comme précédemment) */
+	
+	border-top: 1px solid #fff;
+	/* on met une bordure blanche en haut de chaque élément d'une sous liste */
+}
+/* IE ne reconnaissant pas le sélecteur ">" */
+
+html>body #menu li ul li {
+	border-top: 1px solid transparent;
+	/* on met une bordure transparente en haut de chaque élément */
+}
+
+#menu li ul ul {
+	margin: -22px 0 0 144px;
+	/* On décale les sous-sous-listes pour qu'elles ne soient pas au dessus des sous-listes */
+	/* pour IE qui ne reconnaît pas "transparent" (comme précédemment) */
+	
+	border-left: 1px solid #fff;
+	/* Petite bordure à gauche pour ne pas coller ... */
+}
+/* IE ne reconnaissant pas le sélecteur ">" ... je me répète ;-) */
+
+html>body #menu li ul ul {
+	border-left: 1px solid transparent;
+	/* on met une bordure transparente sur la gauche de chaque élément */
+}
+
+#menu a:hover
+/* Lorsque la souris passe sur un des liens */
+
+{
+	color: black;
+	border-color: #454242;
+}
+
+#menu li:hover ul ul,
+#menu li.sfhover ul ul
+/* Sous-sous-listes lorsque la souris passe sur un élément de liste */
+
+{
+	left: -999em;
+	/* On expédie les sous-sous-listes hors du champ de vision */
+}
+
+#menu li:hover ul,
+#menu li li:hover ul,
+#menu li.sfhover ul,
+#menu li li.sfhover ul
+/* Sous-listes lorsque la souris passe sur un élément de liste ET sous-sous-lites lorsque la souris passe sur un élément de sous-liste */
+
+{
+	left: auto;
+	/* Repositionnement normal */
+	
+	min-height: 0;
+	/* Corrige un bug sous IE */
+}
