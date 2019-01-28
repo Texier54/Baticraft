@@ -1,0 +1,13 @@
+database.php **
+refaire devenir citoyen/ou enlever **
+refaire style des bouton de nav **
+auto login quand on va sur la gestion des serveurs **
+Post d'un tweet pour une news **
+inscptions comme texiervideos (tooltip) **
+sécuriser infos news album videos connexion **
+
+revoir le systéme pour la vidéo sur index
+Faire nouveau forum
+petit onglet de news a coté des grosses pour genre plugin etc...
+contact comme texiervideos
+Stats
